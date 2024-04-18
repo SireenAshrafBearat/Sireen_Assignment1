@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D58CD5"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleidd"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="الجهاز البولي"
+        android:textAlignment="center"
+        android:textColor="#5A2BAE"
+        android:textColorHighlight="#373030"
+        android:textIsSelectable="true"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/space1"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_below="@id/titleidd" />
+
+    <ImageView
+        android:id="@+id/iamgeview"
+        style="@style/image"
+        android:layout_below="@id/space1"
+        android:layout_marginTop="49dp"
+        android:src="@drawable/sireen" />
+
+    <View
+        android:id="@+id/space2"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_below="@id/iamgeview" />
+
+    <Button
+        android:id="@+id/btn_mammals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/space2"
+        android:layout_marginTop="68dp"
+        android:text="تركيب  الجهاز البولي"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_birds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_mammals"
+        android:layout_marginTop="33dp"
+        android:text="تركيب الوحدة الانبوبية الكلوية"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_fish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_birds"
+        android:layout_marginTop="33dp"
+        android:text="خطوات تكوين البول"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_fish"
+        android:layout_marginTop="33dp"
+        android:text="Quiz"
+        android:textSize="20dp" />
+
+</RelativeLayout>
